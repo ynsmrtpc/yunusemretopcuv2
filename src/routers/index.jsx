@@ -1,25 +1,23 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "@/pages/Home";
+import NotFound from "@/pages/404";
+import Header from "@/components/Header";
 
 export const pages = [
     { path: "/", component: Home },
     { path: "/#", component: Home },
-    { path: "*", component: Page404 },
+    { path: "*", component: NotFound },
 ];
 
-const DBRoutes = () => {
+export default function Routers() {
     return (
         <BrowserRouter>
-            <Cookie />
-            <SiteHeader />
+            <Header />
             <Routes>
-                <Route element={<Page404 />} />
                 {pages.map(({ component: Component, path }, index) => {
                     return <Route key={index} element={<Component />} path={path} />;
                 })}
             </Routes>
-            <Footer />
         </BrowserRouter>
     );
 };
-
-export default DBRoutes;

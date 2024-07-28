@@ -1,5 +1,3 @@
-import { PiMoonStarsFill } from "react-icons/pi";
-import { ImSun } from "react-icons/im";
 import { useEffect, useState } from "react";
 
 export default function ThemeController() {
@@ -18,8 +16,8 @@ export default function ThemeController() {
     return (
         <label className="swap swap-rotate">
             <input type="checkbox" onChange={toggleTheme} checked={theme === "dark"} />
-            {theme === "dark" && <ImSun className='swap-on h-10 w-10 fill-current' />}
-            {theme === "light" && <PiMoonStarsFill className='swap-off h-10 w-10 fill-current' />}
+            {theme === "dark" && <>🌕</>}
+            {theme === "light" && <>🌑</>}
         </label>
     );
 }

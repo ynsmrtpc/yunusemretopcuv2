@@ -1,12 +1,10 @@
 
-import ThemeController from "@/components/ThemeController";
+import Routers from "./routers";
 
 export default function App() {
 
   return (
-    <>
-      <ThemeController />
-    </>
+    <Routers />
   )
 }
 
