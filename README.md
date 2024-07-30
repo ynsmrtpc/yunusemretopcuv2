@@ -1,8 +1,13 @@
-# React + Vite
+# yunusemretopcu.com v2
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Bu projede React, .Net, Docker Sql Server kullanmayı düşünüyorum.
+- Kişisel sayfamın 2. versiyonu olacak.
+- Dilerseniz kodları inceleyebilirsiniz.
+- Tema olarak indirip kullanabilirsiniz.
 
-Currently, two official plugins are available:
+## Nasıl Çalışır?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Projeyi bilgisayarınıza klonladıktan sonra ```npm install``` komutu ya da ```pnpm install```, ```yarn install``` komutlarından hangi paket yükleyicisini kullanıyorsanız onu kullanarak gerekli paketleri yükleyiniz. (Ben pnpm kullandığım için bundan sonrasına pnpm üzerinden devam edeceğim.)
+- ```pnpm dev``` komutu ile projeyi çalıştırabilirsiniz.
+- env dosyasında değişiklik yapmanız gerekebilir, gerekli değişiklikleri paylaşacağım.
+- Backend tarafını henüz oluşturmadım, oluşturduğumda backend tarafını ve frontend tarafını container üzerinde çalıştıracağız, bu bağlamda Docker kullanacağız.
