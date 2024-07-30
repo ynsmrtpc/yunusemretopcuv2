@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function ThemeController() {
+export default function ThemeController({ className, children }) {
     const savedTheme = localStorage.getItem("theme");
     const [theme, setTheme] = useState(savedTheme ? savedTheme : "dark");
 
@@ -14,10 +14,11 @@ export default function ThemeController() {
     };
 
     return (
-        <label className="swap swap-rotate">
+        <label className={`swap swap-rotate ${className}`}>
             <input type="checkbox" onChange={toggleTheme} checked={theme === "dark"} />
             {theme === "dark" && <>🌕</>}
             {theme === "light" && <>🌑</>}
+            {children}
         </label>
     );
 }
