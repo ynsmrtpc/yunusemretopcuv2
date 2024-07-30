@@ -5,13 +5,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.web
-    container_name: react_app
+    container_name: yunus-web
     working_dir: /app
     volumes:
       - .:/app
       - /app/node_modules
     ports:
-      - "5173:5173"
+      - "2801:2801"
     # depends_on:
     #   - api
 
