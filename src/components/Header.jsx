@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
     return (
-        <div className="navbar bg-base-100 flex justify-center items-center border-b border-gray-700">
+        <div className="navbar bg-base-100 flex justify-center items-center border-gray-700">
             <div div className="navbar-start block lg:hidden" >
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
