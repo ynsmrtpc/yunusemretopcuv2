@@ -1,15 +1,11 @@
-version: '3.9'
-
 services:
   web:
     build:
       context: .
       dockerfile: Dockerfile.web
     container_name: yunus-web
-    working_dir: /app
     volumes:
-      - .:/app
-      - /app/node_modules
+      - /app
     ports:
       - "2801:2801"
     # depends_on:
