@@ -3,10 +3,12 @@ import Home from "@/pages/Home";
 import NotFound from "@/pages/404";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import About from "@/pages/About";
 
 export const pages = [
     { path: "/", component: Home },
     { path: "/#", component: Home },
+    { path: "/about", component: About },
     { path: "*", component: NotFound },
 ];
 

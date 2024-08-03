@@ -9,7 +9,7 @@ services:
     ports:
       - "2801:2801"
     # depends_on:
-    #   - api
+    #   - apidock
 
   # api:
   #   build:
