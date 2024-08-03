@@ -1,24 +1,24 @@
-FROM node:20-alpine
-WORKDIR /app
-COPY package.json pnpm-lock.yaml ./
-RUN npm install -g pnpm && pnpm install
-COPY . .
-EXPOSE 2801
-CMD ["pnpm", "run", "dev", "--", "--host", "0.0.0.0"]
-
 # FROM node:20-alpine
-
 # WORKDIR /app
-
 # COPY package.json pnpm-lock.yaml ./
 # RUN npm install -g pnpm && pnpm install
-
 # COPY . .
-
-# RUN pnpm run build
-
-# RUN npm install -g serve
-
 # EXPOSE 2801
+# CMD ["pnpm", "run", "dev", "--", "--host", "0.0.0.0"]
 
-# CMD ["serve", "-s", "dist", "-l", "2801"]
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY package.json pnpm-lock.yaml ./
+RUN npm install -g pnpm && pnpm install
+
+COPY . .
+
+RUN pnpm run build
+
+RUN npm install -g serve
+
+EXPOSE 2801
+
+CMD ["serve", "-s", "dist", "-l", "2801"]
