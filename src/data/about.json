@@ -1,0 +1,130 @@
+[
+    {
+        "section_name": "introduction",
+        "codeBlocks": [
+            {
+                "prefix": [
+                    "yunus $",
+                    "aboutyunus (main) $"
+                ],
+                "codeLines": [
+                    {
+                        "text": "cat aboutyunus"
+                    },
+                    {
+                        "text": "Hello! I'm Yunus. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section_name": "skills_tools",
+        "codeBlocks": [
+            {
+                "prefix": [
+                    "yunus $",
+                    "skills/tools (main) $"
+                ],
+                "codeLines": [
+                    {
+                        "text": "cd skills/tools"
+                    },
+                    {
+                        "text": "ls"
+                    },
+                    {
+                        "text": "Proficient With",
+                        "className": "text-success"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            {
+                                "text": "javascript"
+                            },
+                            {
+                                "text": "react"
+                            },
+                            {
+                                "text": "git"
+                            },
+                            {
+                                "text": "github"
+                            },
+                            {
+                                "text": "bootstrap"
+                            },
+                            {
+                                "text": "html5"
+                            },
+                            {
+                                "text": "css3"
+                            },
+                            {
+                                "text": "figma"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Exposed To",
+                        "className": "text-success"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            {
+                                "text": "nodejs"
+                            },
+                            {
+                                "text": "adobe illustrator"
+                            },
+                            {
+                                "text": "python"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "section_name": "hobbies_interests",
+        "codeBlocks": [
+            {
+                "prefix": [
+                    "yunus $",
+                    "hobbies/interests (main) $"
+                ],
+                "codeLines": [
+                    {
+                        "text": "cd hobbies/interests"
+                    },
+                    {
+                        "text": "ls"
+                    },
+                    {
+                        "className": "text-success"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            {
+                                "text": "📖reading"
+                            },
+                            {
+                                "text": "🎭theater"
+                            },
+                            {
+                                "text": "🎥movies"
+                            },
+                            {
+                                "text": "🌶cooking"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

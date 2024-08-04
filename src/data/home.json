@@ -1,0 +1,24 @@
+{
+    "profile_image": "/photo.png",
+    "name": "Yunus",
+    "greeting": "Hi, I'm Yunus",
+    "title": "I'm a Full Stack Developer.",
+    "details": [
+        {
+            "icon": "☕",
+            "text": "fueled by coffee"
+        },
+        {
+            "icon": "🌎",
+            "text": "based in the TR"
+        },
+        {
+            "icon": "💼",
+            "text": "Software Engineer at ZB Belediyesi"
+        },
+        {
+            "icon": "📧",
+            "text": "yunus@yunusemretopcu.com"
+        }
+    ]
+}

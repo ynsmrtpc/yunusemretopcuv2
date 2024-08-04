@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 * {
-    transition: all .4s;
+    transition: background-color .4s;
 }
 
 .logo {

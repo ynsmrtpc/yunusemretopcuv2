@@ -1,0 +1,27 @@
+{
+    "links": [
+        {
+            "path": "/",
+            "label": "home"
+        },
+        {
+            "path": "/about",
+            "label": "about me"
+        },
+        {
+            "path": "/portfolio",
+            "label": "portfolio"
+        },
+        {
+            "path": "/blogs",
+            "label": "blog"
+        }
+    ],
+    "logo": {
+        "path": "/",
+        "label": "yunusemretopcu"
+    },
+    "theme_toggle": {
+        "label": "Tema Değiştir"
+    }
+}
