@@ -11,7 +11,7 @@ const BlogList = () => {
     useEffect(() => {
         const fetchBlogs = async () => {
             try {
-                const response = await axios.get('https://blog.yunusemretopcu.com/rss/');
+                const response = await axios.get('https://api.yunusemretopcu.com/blog.php');
                 const parser = new XMLParser({
                     ignoreAttributes: false,
                     attributeNamePrefix: "",
